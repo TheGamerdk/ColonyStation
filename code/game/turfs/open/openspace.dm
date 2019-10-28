@@ -4,6 +4,8 @@
 	icon_state = "grey"
 	baseturfs = /turf/open/openspace
 	CanAtmosPassVertical = ATMOS_PASS_YES
+	plane = FLOOR_OPENSPACE_PLANE
+	layer = OPENSPACE_LAYER
 	//mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 	var/can_cover_up = TRUE
 	var/can_build_on = TRUE
@@ -12,10 +14,8 @@
 	..()
 	return TRUE
 
-/turf/open/openspace/Initialize() // handle plane and layer here so that they don't cover other obs/turfs in Dream Maker
+/turf/open/openspace/Initialize()
 	. = ..()
-	plane = FLOOR_OPENSPACE_PLANE
-	layer = OPENSPACE_LAYER
 	return INITIALIZE_HINT_LATELOAD
 
 /turf/open/openspace/LateInitialize()
@@ -110,12 +110,11 @@
 			else
 				to_chat(user, "<span class='warning'>You need one floor tile to build a floor!</span>")
 		else
-			to_chat(user, "<span class='warning'>The plating is going to need some support! Place metal rods first.</span>")
+							to_chat(user, "<span class='warning'>The plating is going to need some support! Place metal rods first.</span>")
 
 /turf/open/openspace/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
 	if(!CanBuildHere())
 		return FALSE
-
 	switch(the_rcd.mode)
 		if(RCD_FLOORWALL)
 			var/obj/structure/lattice/L = locate(/obj/structure/lattice, src)
@@ -124,7 +123,6 @@
 			else
 				return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 3)
 	return FALSE
-
 /turf/open/openspace/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
 	switch(passed_mode)
 		if(RCD_FLOORWALL)
