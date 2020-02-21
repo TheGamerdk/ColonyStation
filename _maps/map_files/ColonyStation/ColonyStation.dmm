@@ -17908,7 +17908,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/science)
-"QN" = (
+"UU" = (
+/obj/machinery/camera{
+	c_tag = "Aft Primary Hallway 2";
+	dir = 4
+	},
+/obj/structure/flora/rock,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"VZ" = (
 /obj/structure/flora/rock,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
@@ -42469,7 +42477,7 @@ ad
 ad
 ad
 bP
-QN
+VZ
 wu
 aZ
 bP
@@ -46073,7 +46081,7 @@ wu
 eW
 aZ
 Gq
-Ky
+UU
 aZ
 aZ
 aZ
