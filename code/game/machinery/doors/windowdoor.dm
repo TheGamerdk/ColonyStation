@@ -22,6 +22,10 @@
 	var/cable = 1
 	var/list/debris = list()
 
+	FASTDMM_PROP(\
+		pinned_vars = list("req_access_txt", "req_one_access_txt", "name")\
+	)
+
 /obj/machinery/door/window/Initialize(mapload, set_dir)
 	. = ..()
 	if(set_dir)
