@@ -1,7 +1,7 @@
 {
     "map_name": "ColonyStation",
     "map_path": "map_files/ColonyStation",
-    "map_file": ["ColonyStation.dmm", "ColonyStationMaint.dmm"],
+    "map_file": "ColonyStation.dmm",
     "shuttles": {
 	    "cargo": "cargo_box",
 	    "ferry": "ferry_fancy",
