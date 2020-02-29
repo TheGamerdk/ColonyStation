@@ -4,8 +4,6 @@
 	icon_state = "grey"
 	baseturfs = /turf/open/openspace
 	CanAtmosPassVertical = ATMOS_PASS_YES
-	plane = FLOOR_OPENSPACE_PLANE
-	layer = OPENSPACE_LAYER
 	//mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 	var/can_cover_up = TRUE
 	var/can_build_on = TRUE
@@ -14,8 +12,10 @@
 	..()
 	return TRUE
 
-/turf/open/openspace/Initialize()
+/turf/open/openspace/Initialize() // handle plane and layer here so that they don't cover other obs/turfs in Dream Maker
 	. = ..()
+	plane = FLOOR_OPENSPACE_PLANE
+	layer = OPENSPACE_LAYER
 	return INITIALIZE_HINT_LATELOAD
 
 /turf/open/openspace/LateInitialize()
@@ -57,6 +57,11 @@
 	return TRUE
 
 /turf/open/openspace/zPassOut(atom/movable/A, direction, turf/destination)
+	if(A.anchored)
+		return FALSE
+	for(var/obj/O in contents)
+		if(O.obj_flags & BLOCK_Z_FALL)
+			return FALSE
 	return TRUE
 
 /turf/open/openspace/proc/CanCoverUp()
@@ -79,14 +84,14 @@
 		if(L)
 			if(R.use(1))
 				to_chat(user, "<span class='notice'>You construct a catwalk.</span>")
-				playsound(src, 'sound/weapons/genhit.ogg', 50, 1)
+				playsound(src, 'sound/weapons/genhit.ogg', 50, TRUE)
 				new/obj/structure/lattice/catwalk(src)
 			else
 				to_chat(user, "<span class='warning'>You need two rods to build a catwalk!</span>")
 			return
 		if(R.use(1))
 			to_chat(user, "<span class='notice'>You construct a lattice.</span>")
-			playsound(src, 'sound/weapons/genhit.ogg', 50, 1)
+			playsound(src, 'sound/weapons/genhit.ogg', 50, TRUE)
 			ReplaceWithLattice()
 		else
 			to_chat(user, "<span class='warning'>You need one rod to build a lattice.</span>")
@@ -99,10 +104,31 @@
 			var/obj/item/stack/tile/plasteel/S = C
 			if(S.use(1))
 				qdel(L)
-				playsound(src, 'sound/weapons/genhit.ogg', 50, 1)
+				playsound(src, 'sound/weapons/genhit.ogg', 50, TRUE)
 				to_chat(user, "<span class='notice'>You build a floor.</span>")
 				PlaceOnTop(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
 			else
 				to_chat(user, "<span class='warning'>You need one floor tile to build a floor!</span>")
 		else
 			to_chat(user, "<span class='warning'>The plating is going to need some support! Place metal rods first.</span>")
+
+/turf/open/openspace/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
+	if(!CanBuildHere())
+		return FALSE
+
+	switch(the_rcd.mode)
+		if(RCD_FLOORWALL)
+			var/obj/structure/lattice/L = locate(/obj/structure/lattice, src)
+			if(L)
+				return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 1)
+			else
+				return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 3)
+	return FALSE
+
+/turf/open/openspace/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
+	switch(passed_mode)
+		if(RCD_FLOORWALL)
+			to_chat(user, "<span class='notice'>You build a floor.</span>")
+			PlaceOnTop(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
+			return TRUE
+	return FALSE
