@@ -8,6 +8,7 @@ GLOBAL_LIST_EMPTY(mining_bots)
 	icon_state = "mulebot0"
 	density = TRUE
 
+	circuit = /obj/item/circuitboard/machine/mining_bot
 
 	var/list/cargo = list()
 	var/maxCargo = 25
@@ -69,6 +70,7 @@ GLOBAL_LIST_EMPTY(mining_bots)
 	radio.recalculateChannels()
 	battery = new /obj/item/stock_parts/cell/high(src)
 	..()
+
 
 /obj/machinery/mining/bot/Destroy()
 	GLOB.mining_bots -= src

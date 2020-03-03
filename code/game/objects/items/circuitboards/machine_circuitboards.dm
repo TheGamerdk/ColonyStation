@@ -1102,6 +1102,16 @@
 		/obj/item/assembly/igniter = 1)
 	needs_anchored = FALSE
 
+/obj/item/circuitboard/machine/mining_bot
+	name = "Automated Extraction Drone (Machine Board)"
+	icon_state = "supply"
+	build_path = /obj/machinery/mining/bot
+	req_components = list(
+		/obj/item/stack/sheet/glass = 1,
+		/obj/item/stock_parts/matter_bin = 4,
+		/obj/item/stock_parts/micro_laser = 1,
+		/obj/item/stock_parts/manipulator = 4)
+
 /obj/item/circuitboard/machine/ore_silo
 	name = "Ore Silo (Machine Board)"
 	icon_state = "supply"
@@ -1165,7 +1175,7 @@
 		/obj/item/stock_parts/micro_laser = /obj/item/stock_parts/micro_laser/quadultra,
 		/obj/item/stock_parts/scanning_module = /obj/item/stock_parts/scanning_module/triphasic)
 
-		
+
 //terraforming
 
 /obj/item/circuitboard/machine/terraformer

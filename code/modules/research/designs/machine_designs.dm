@@ -459,6 +459,14 @@
 	category = list ("Misc. Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO | DEPARTMENTAL_FLAG_ENGINEERING
 
+/datum/design/board/mining_drone
+	name = "Machine Design (Automated Extraction Drone Board)"
+	desc = "The circuit board for an Automated Extraction Drone."
+	id = "automated_drone"
+	build_path = /obj/item/circuitboard/machine/mining_bot
+	category = list ("Misc. Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO | DEPARTMENTAL_FLAG_ENGINEERING
+
 /datum/design/board/mining_equipment_vendor
 	name = "Machine Design (Mining Rewards Vendor Board)"
 	desc = "The circuit board for a Mining Rewards Vendor."
