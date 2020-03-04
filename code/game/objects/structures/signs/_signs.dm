@@ -41,7 +41,7 @@
 		return
 	else if(istype(I, /obj/item/pen) && buildable_sign)
 		var/list/sign_types = list("Secure Area", "Biohazard", "High Voltage", "Radiation", "Hard Vacuum Ahead", "Disposal: Leads To Space", "Danger: Fire", "No Smoking", "Medbay", "Science", "Chemistry", \
-		"Hydroponics", "Xenobiology")
+		"Hydroponics", "Xenobiology", "Test Chamber","Firing Range", "Extreme Cold", "Extreme Heat", "Gas Mask", "Nanites Lab", "Maintenance", "Reactive Chemicals")
 		var/obj/structure/sign/sign_type
 		switch(input(user, "Select a sign type.", "Sign Customization") as null|anything in sign_types)
 			if("Blank")
@@ -62,6 +62,18 @@
 				sign_type = /obj/structure/sign/warning/fire
 			if("No Smoking")
 				sign_type = /obj/structure/sign/warning/nosmoking/circle
+			if("Test Chamber")
+				sign_type = /obj/structure/sign/warning/testchamber
+			if("Firing Range")
+				sign_type = /obj/structure/sign/warning/firingrange
+			if("Extreme Cold")
+				sign_type = /obj/structure/sign/warning/coldtemp
+			if("Extreme Heat")
+				sign_type = /obj/structure/sign/warning/hottemp
+			if("Gas Mask")
+				sign_type = /obj/structure/sign/warning/gasmask
+			if("Reactive Chemicals")
+				sign_type = /obj/structure/sign/warning/chemdiamond
 			if("Medbay")
 				sign_type = /obj/structure/sign/departments/medbay/alt
 			if("Science")
@@ -72,6 +84,10 @@
 				sign_type = /obj/structure/sign/departments/botany
 			if("Xenobiology")
 				sign_type = /obj/structure/sign/departments/xenobio
+			if("Nanites Lab")
+				sign_type = /obj/structure/sign/departments/nanites
+			if("Maintenance")
+				sign_type = /obj/structure/sign/departments/mait
 
 		//Make sure user is adjacent still
 		if(!Adjacent(user))
