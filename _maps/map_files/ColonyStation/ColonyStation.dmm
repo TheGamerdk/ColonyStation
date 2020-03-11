@@ -33,7 +33,6 @@
 "aM" = (/obj/structure/sign/directions/supply{dir = 1},/turf/closed/wall,/area/space)
 "aN" = (/obj/effect/turf_decal/stripes/end{dir = 4},/turf/closed/wall,/area/space)
 "aO" = (/obj/effect/turf_decal/tile/red{dir = 1},/turf/open/floor/plasteel,/area/space)
-"aP" = (/obj/structure/sign/warning/securearea{pixel_y = 32},/turf/open/floor/plasteel,/area/space)
 "aQ" = (/obj/structure/window/reinforced/spawner/west,/obj/structure/closet/secure_closet/personal,/turf/open/floor/plasteel,/area/space)
 "aR" = (/obj/structure/window/reinforced/spawner,/turf/open/floor/plasteel/white,/area/space)
 "aU" = (/obj/machinery/door/airlock/public/glass{name = "Cryo Chamber"},/turf/open/floor/plasteel,/area/space)
@@ -67,9 +66,10 @@
 "ch" = (/obj/machinery/door/airlock/command/glass{name = "Chief Engineer"; req_access_txt = "56"},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plasteel,/area/space)
 "cp" = (/obj/structure/closet/secure_closet/engineering_personal,/turf/open/floor/plasteel,/area/space)
 "cu" = (/obj/structure/table,/obj/item/paper_bin,/obj/item/pen,/turf/open/floor/plasteel/showroomfloor,/area/space)
-"cx" = (/obj/machinery/door/airlock/engineering/glass{name = "Utility Bridge"; req_access_txt = "32"},/turf/open/floor/plating,/area/space)
+"cB" = (/obj/structure/cable{icon_state = "1-4"},/turf/open/floor/plating,/area/space)
 "cF" = (/obj/structure/window/reinforced/spawner/north{dir = 8},/turf/open/floor/grass,/area/space)
 "cI" = (/obj/structure/table/wood,/obj/item/camera_film,/turf/open/floor/wood,/area/space)
+"cK" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/space)
 "cN" = (/obj/structure/bed,/obj/item/bedsheet/hos,/turf/open/floor/carpet,/area/space)
 "cR" = (/obj/machinery/door/airlock{name = "Unisex Restrooms"},/turf/open/floor/plasteel,/area/space)
 "cU" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/plasteel,/area/space)
@@ -113,6 +113,7 @@
 "fm" = (/obj/structure/closet/crate/freezer,/turf/open/floor/plating,/area/space)
 "fs" = (/obj/machinery/power/fuel_mixer,/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 8},/turf/open/floor/plasteel,/area/space)
 "fu" = (/obj/effect/turf_decal/stripes/red/line{dir = 1},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plasteel/dark,/area/space)
+"fx" = (/obj/effect/turf_decal/stripes/line,/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/visible/layer1{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/space)
 "fy" = (/turf/open/floor/plasteel/dark,/area/space)
 "fG" = (/obj/structure/cable{icon_state = "2-8"},/obj/effect/landmark/start/station_engineer,/turf/open/floor/plasteel,/area/space)
 "fI" = (/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plasteel,/area/space)
@@ -149,6 +150,7 @@
 "hY" = (/obj/structure/sign/directions/science{pixel_y = 8},/turf/closed/wall,/area/space)
 "hZ" = (/obj/structure/chair/stool,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/space)
 "id" = (/obj/machinery/conveyor{dir = 1; id = "QMLoad"},/turf/open/floor/plasteel,/area/space)
+"if" = (/obj/structure/sign/warning/securearea{pixel_y = 32},/turf/open/floor/plasteel,/area/space)
 "ih" = (/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown,/turf/open/floor/plasteel,/area/space)
 "io" = (/obj/machinery/door/airlock/public/glass{name = "Library"},/turf/open/floor/wood,/area/space)
 "ix" = (/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
@@ -198,6 +200,8 @@
 "kM" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/cable{icon_state = "0-8"},/turf/open/floor/plating,/area/space)
 "kP" = (/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral,/turf/closed/wall,/area/space)
 "kQ" = (/obj/structure/table,/obj/item/clothing/gloves/color/yellow,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/plasteel,/area/space)
+"kR" = (/obj/structure/sign/warning/electricshock{pixel_y = 32},/turf/open/floor/plasteel,/area/space)
+"kX" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{dir = 6},/obj/machinery/atmospherics/pipe/simple/supply/visible/layer1{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/space)
 "ld" = (/turf/open/floor/plasteel/chapel,/area/space)
 "lg" = (/obj/effect/turf_decal/tile/neutral,/turf/closed/wall,/area/space)
 "ll" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/structure/toilet{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
@@ -213,6 +217,7 @@
 "lR" = (/obj/machinery/door/airlock/engineering/glass{name = "Tunnel Access"; req_access_txt = "32"},/turf/open/floor/plasteel,/area/space)
 "lS" = (/obj/structure/table/reinforced,/obj/machinery/door/poddoor/shutters/preopen{id = "kitchen"; name = "kitchen shutters"},/obj/item/reagent_containers/food/condiment/saltshaker{pixel_x = -3},/obj/item/reagent_containers/food/condiment/peppermill{pixel_x = 3},/turf/open/floor/plating,/area/space)
 "lT" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/structure/table,/obj/item/pen,/obj/item/paper,/turf/open/floor/plasteel/dark,/area/space)
+"lW" = (/obj/effect/turf_decal/stripes/line,/obj/machinery/atmospherics/pipe/manifold/supply/visible/layer1{dir = 4},/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer3{dir = 4},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/plating,/area/space)
 "me" = (/obj/machinery/mining/bot,/obj/effect/turf_decal/bot,/turf/open/floor/plasteel,/area/space)
 "mj" = (/obj/effect/spawner/lootdrop/maintenance,/obj/structure/closet,/turf/open/floor/plating,/area/space)
 "ml" = (/obj/item/twohanded/required/kirbyplants/random,/turf/open/floor/plasteel/grimy,/area/space)
@@ -244,12 +249,12 @@
 "nU" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/space)
 "nY" = (/obj/machinery/power/fusion/core,/turf/open/floor/plasteel/dark,/area/space)
 "oa" = (/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/structure/closet/emcloset/anchored,/turf/open/floor/plasteel,/area/space)
-"od" = (/obj/structure/sign/directions/medical,/turf/closed/wall,/area/space)
 "of" = (/obj/structure/lattice/catwalk,/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 4},/turf/open/openspace,/area/space)
 "oi" = (/obj/structure/chair/stool,/obj/effect/landmark/start/janitor,/obj/effect/turf_decal/tile/purple{dir = 4},/turf/open/floor/plasteel,/area/space)
 "ok" = (/obj/item/bedsheet/prisoner,/obj/structure/bed,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/obj/machinery/flasher{id = "cell2"; pixel_y = 28},/turf/open/floor/plasteel/dark,/area/space)
 "ol" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
 "om" = (/obj/machinery/button/door{id = "Dorm1"; name = "Dorm Bolt Control"; normaldoorcontrol = 1; pixel_x = -25; specialfunctions = 4},/obj/structure/bed,/obj/item/bedsheet/dorms,/turf/open/floor/carpet,/area/space)
+"oo" = (/obj/machinery/power/deck_relay,/turf/open/floor/plating,/area/space)
 "op" = (/obj/effect/turf_decal/stripes/red/line,/obj/machinery/door/airlock/security/glass{name = "Brig Control"; req_access_txt = "1"},/turf/open/floor/plasteel/dark,/area/space)
 "ou" = (/obj/machinery/door/airlock/engineering/glass{name = "Reactor Access"; req_access_txt = "10"},/turf/open/floor/plasteel/white,/area/space)
 "oz" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/plasteel,/area/space)
@@ -269,6 +274,7 @@
 "pp" = (/obj/structure/bookcase{name = "Forbidden Knowledge"},/turf/open/floor/wood,/area/space)
 "px" = (/obj/effect/turf_decal/stripes/corner{dir = 4},/turf/open/floor/plasteel,/area/space)
 "pA" = (/obj/machinery/atmospherics/components/unary/portables_connector,/turf/open/floor/plating,/area/space)
+"pD" = (/obj/machinery/atmospherics/pipe/simple/multiz,/turf/open/floor/plating,/area/space)
 "pE" = (/obj/effect/turf_decal/bot,/obj/structure/ore_box,/obj/effect/turf_decal/tile/brown,/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown{dir = 4},/turf/open/floor/plasteel,/area/space)
 "pG" = (/obj/item/soap,/turf/open/floor/plasteel/freezer,/area/space)
 "pH" = (/obj/structure/table,/obj/machinery/recharger,/obj/effect/turf_decal/tile/red,/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
@@ -280,9 +286,9 @@
 "qb" = (/obj/structure/cable{icon_state = "2-4"},/turf/open/floor/plasteel/showroomfloor,/area/space)
 "qd" = (/obj/structure/table,/obj/machinery/cell_charger,/obj/item/stock_parts/cell/high/plus,/obj/structure/cable{icon_state = "2-4"},/turf/open/floor/plasteel/dark,/area/space)
 "qk" = (/obj/effect/turf_decal/stripes/line{dir = 5},/obj/structure/table,/obj/item/electronics/airlock,/obj/item/electronics/apc,/turf/open/floor/plasteel,/area/space)
+"ql" = (/obj/machinery/door/airlock/engineering/glass{name = "Utility Bridge"; req_access_txt = "32"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/space)
 "qo" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 1},/turf/open/floor/plasteel,/area/space)
 "qr" = (/obj/machinery/door/airlock/maintenance_hatch{req_access_txt = "12"},/turf/open/floor/plating/asteroid/terraformable,/area/space)
-"qs" = (/obj/structure/sign/warning/securearea{pixel_y = -32},/turf/open/floor/plasteel,/area/space)
 "qz" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/structure/table,/obj/item/storage/firstaid/regular,/turf/open/floor/plasteel,/area/space)
 "qD" = (/obj/machinery/door/airlock/public/glass{name = "Primary Tool Storage"},/turf/open/floor/plasteel,/area/space)
 "qE" = (/obj/machinery/door/airlock/security/glass{name = "Equipment Room"; req_access_txt = "1"},/turf/open/floor/plasteel/dark,/area/space)
@@ -376,6 +382,7 @@
 "vJ" = (/obj/item/twohanded/required/kirbyplants/random,/turf/open/floor/plasteel/dark,/area/space)
 "vK" = (/obj/effect/turf_decal/loading_area{dir = 1},/turf/open/floor/plating,/area/space)
 "vQ" = (/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red,/obj/item/twohanded/required/kirbyplants/random,/turf/open/floor/plasteel/dark,/area/space)
+"vR" = (/obj/structure/sign/warning/securearea{pixel_y = -32},/turf/open/floor/plasteel,/area/space)
 "vT" = (/obj/structure/cable/yellow{icon_state = "1-4"},/turf/open/floor/plasteel/dark,/area/space)
 "vX" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/item/twohanded/required/kirbyplants/random,/turf/open/floor/plasteel,/area/space)
 "wa" = (/obj/structure/table/reinforced,/obj/machinery/door/poddoor/shutters/preopen{id = "kitchen"; name = "kitchen shutters"},/obj/item/reagent_containers/food/condiment/saltshaker{pixel_x = -2; pixel_y = 2},/obj/item/reagent_containers/food/condiment/peppermill{pixel_x = 5; pixel_y = -2},/turf/open/floor/plating,/area/space)
@@ -398,7 +405,6 @@
 "wV" = (/obj/structure/window/reinforced/spawner/north{dir = 4},/obj/structure/window/reinforced/spawner/north{dir = 2},/obj/structure/flora/ausbushes/brflowers,/turf/open/floor/grass,/area/space)
 "wX" = (/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plasteel,/area/space)
 "wY" = (/obj/item/twohanded/required/kirbyplants/random,/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown,/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
-"xb" = (/obj/structure/sign/directions/command{dir = 1},/turf/closed/wall,/area/space)
 "xh" = (/obj/effect/turf_decal/loading_area,/turf/open/floor/plasteel,/area/space)
 "xp" = (/obj/structure/cable{icon_state = "2-8"},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line,/turf/open/floor/plasteel,/area/space)
 "xu" = (/obj/effect/turf_decal/stripes/red/line,/turf/open/floor/plasteel/dark,/area/space)
@@ -414,6 +420,7 @@
 "yj" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/structure/window/reinforced/spawner/west,/turf/open/floor/plasteel,/area/space)
 "yk" = (/obj/effect/turf_decal/bot,/turf/open/floor/plasteel,/area/space)
 "ym" = (/obj/machinery/door/airlock{id_tag = "Dorm5"; name = "Cabin"},/turf/open/floor/plasteel,/area/space)
+"yp" = (/obj/machinery/door/airlock/engineering/glass{name = "Utility Bridge"; req_access_txt = "32"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/space)
 "yq" = (/obj/machinery/button/door{id = "Dorm4"; name = "Dorm Bolt Control"; normaldoorcontrol = 1; pixel_x = 25; specialfunctions = 4},/obj/structure/bed,/obj/item/bedsheet/dorms,/turf/open/floor/carpet,/area/space)
 "yt" = (/obj/structure/table,/obj/item/stock_parts/cell/high/plus,/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown,/turf/open/floor/plasteel,/area/space)
 "yu" = (/obj/item/bikehorn/rubberducky,/turf/open/floor/plasteel/freezer,/area/space)
@@ -456,6 +463,7 @@
 "zY" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/space)
 "Ak" = (/obj/item/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/pen/invisible,/obj/structure/table/wood,/turf/open/floor/wood,/area/space)
 "An" = (/obj/machinery/vending/games,/turf/open/floor/wood,/area/space)
+"At" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{dir = 4},/turf/open/floor/plating,/area/space)
 "Aw" = (/obj/machinery/autolathe,/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
 "AC" = (/obj/structure/closet/secure_closet/evidence,/turf/open/floor/plasteel,/area/space)
 "AF" = (/obj/effect/turf_decal/bot,/obj/structure/frame/machine{anchored = 1},/turf/open/floor/plasteel,/area/space)
@@ -480,6 +488,7 @@
 "BW" = (/obj/machinery/vending/snack/random,/turf/open/floor/plasteel/blackwhite,/area/space)
 "Ce" = (/obj/structure/filingcabinet/chestdrawer,/turf/open/floor/plasteel/showroomfloor,/area/space)
 "Ch" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/plasteel,/area/space)
+"Cn" = (/obj/structure/railing/corner{dir = 4},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/space)
 "Cy" = (/obj/structure/table/reinforced,/obj/machinery/door/window/westleft{dir = 1; name = "Cargo Desk"; req_access_txt = "31"},/turf/open/floor/plasteel,/area/space)
 "Cz" = (/obj/structure/rack,/obj/item/circuitboard/computer/secure_data{pixel_x = -2; pixel_y = 2},/obj/item/circuitboard/computer/security{pixel_x = 1; pixel_y = -1},/turf/open/floor/plating,/area/space)
 "CA" = (/obj/structure/cable/yellow{icon_state = "1-4"},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/open/floor/plasteel/dark,/area/space)
@@ -527,7 +536,6 @@
 "EY" = (/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 1},/obj/effect/turf_decal/tile/red{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plasteel/dark,/area/space)
 "Fa" = (/obj/structure/closet/secure_closet/hos,/turf/open/floor/carpet,/area/space)
 "Fc" = (/obj/effect/turf_decal/tile/green{dir = 4},/obj/structure/closet/secure_closet/hydroponics,/obj/effect/turf_decal/tile/green,/obj/effect/turf_decal/tile/green{dir = 8},/turf/open/floor/plasteel,/area/space)
-"Fm" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/plating,/area/space)
 "Fo" = (/obj/structure/table/wood,/obj/structure/table/wood,/obj/item/clothing/under/burial,/obj/item/clothing/under/burial,/obj/item/clothing/under/burial,/obj/item/clothing/under/burial,/obj/item/clothing/under/burial,/obj/item/clothing/under/burial,/turf/open/floor/plasteel/grimy,/area/space)
 "Fp" = (/obj/structure/closet/emcloset/anchored,/turf/open/floor/plating,/area/space)
 "Fu" = (/obj/structure/table/reinforced,/obj/machinery/door/window/brigdoor/westleft{req_access_txt = "1"},/obj/machinery/door/poddoor/shutters/preopen{id = "brig_lobby"},/turf/open/floor/plasteel,/area/space)
@@ -567,6 +575,7 @@
 "HF" = (/obj/effect/turf_decal/stripes/line,/obj/effect/turf_decal/stripes/corner{dir = 4},/turf/open/floor/plasteel,/area/space)
 "HG" = (/obj/structure/window/reinforced/spawner,/obj/item/soap,/turf/open/floor/plasteel/white,/area/space)
 "HH" = (/obj/effect/decal/cleanable/blood/drip,/turf/open/floor/plating,/area/space)
+"HL" = (/obj/structure/sign/directions/evac{dir = 1; pixel_y = 8},/turf/closed/wall,/area/space)
 "HN" = (/obj/structure/table,/obj/item/stamp/hos,/obj/item/folder/red,/turf/open/floor/carpet,/area/space)
 "Ii" = (/obj/structure/bookcase/random/reference,/turf/open/floor/wood,/area/space)
 "Ik" = (/obj/machinery/vending/cola/random,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/plasteel,/area/space)
@@ -577,9 +586,9 @@
 "IC" = (/obj/structure/table,/obj/item/storage/bag/ore,/obj/item/circuitboard/machine/mining_bot,/obj/effect/turf_decal/tile/brown,/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
 "IF" = (/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown{dir = 1},/turf/open/floor/plasteel,/area/space)
 "IG" = (/obj/machinery/vending/cola/random,/turf/open/floor/plasteel/blackwhite,/area/space)
+"IM" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 5},/turf/open/floor/plating,/area/space)
 "IQ" = (/obj/structure/table,/obj/item/stock_parts/cell/high,/obj/item/flashlight,/obj/item/assembly/flash,/turf/open/floor/plating,/area/space)
 "IR" = (/obj/effect/landmark/start/station_engineer,/turf/open/floor/plasteel,/area/space)
-"IT" = (/obj/structure/sign/directions/evac{dir = 1; pixel_y = 8},/turf/closed/wall,/area/space)
 "IV" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plasteel,/area/space)
 "Jd" = (/obj/machinery/door/airlock/mining{name = "Ore Gathering"; req_access_txt = "50"},/turf/open/floor/plasteel,/area/space)
 "Jg" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
@@ -591,6 +600,7 @@
 "JN" = (/obj/item/book/codex_gigas,/obj/structure/destructible/cult/tome,/turf/open/floor/wood,/area/space)
 "JO" = (/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/structure/table,/obj/item/clothing/glasses/meson,/turf/open/floor/plasteel,/area/space)
 "JR" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/engineering/glass{name = "Operations Room"; req_access_txt = "32"},/turf/open/floor/plasteel,/area/space)
+"JT" = (/obj/machinery/atmospherics/pipe/layer_manifold{dir = 4; level = 2},/turf/open/floor/plating,/area/space)
 "Kb" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/table/wood,/turf/open/floor/plasteel/dark,/area/space)
 "Kl" = (/obj/machinery/door/airlock/public/glass{name = "Auxiliary Tool Storage"; req_access_txt = "12"},/turf/open/floor/plasteel,/area/space)
 "Kn" = (/obj/effect/turf_decal/stripes/red/line{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
@@ -615,7 +625,9 @@
 "Lr" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plasteel,/area/space)
 "Lx" = (/obj/structure/cable{icon_state = "1-4"},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plasteel,/area/space)
 "LD" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/plasteel,/area/space)
+"LL" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{dir = 9},/turf/open/floor/plating,/area/space)
 "LT" = (/obj/structure/chair/stool,/turf/open/floor/plasteel,/area/space)
+"LV" = (/obj/effect/turf_decal/stripes/line,/obj/machinery/atmospherics/pipe/simple/supply/visible/layer1{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/space)
 "LW" = (/obj/effect/decal/cleanable/cobweb/cobweb2,/turf/open/floor/plating,/area/space)
 "Mb" = (/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
 "Mc" = (/obj/effect/landmark/start/chaplain,/obj/structure/chair{dir = 1},/turf/open/floor/plasteel/grimy,/area/space)
@@ -632,9 +644,11 @@
 "MQ" = (/mob/living/carbon/monkey/punpun,/turf/open/floor/plasteel/blackwhite,/area/space)
 "MU" = (/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plasteel,/area/space)
 "MV" = (/obj/effect/turf_decal/stripes/line,/obj/structure/table/wood,/obj/item/pen,/obj/item/paper,/turf/open/floor/plating,/area/space)
+"MY" = (/obj/machinery/atmospherics/pipe/simple/supply/visible{dir = 5},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/space)
 "Nb" = (/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 4},/obj/machinery/computer/stockexchange,/obj/structure/table,/turf/open/floor/plasteel,/area/space)
 "Nd" = (/obj/structure/table/wood,/turf/open/floor/plasteel/dark,/area/space)
 "Nh" = (/obj/machinery/door/airlock/public{name = "Book Repository"},/turf/open/floor/wood,/area/space)
+"Nj" = (/obj/structure/sign/directions/command{dir = 1},/turf/closed/wall,/area/space)
 "Nm" = (/obj/item/twohanded/required/kirbyplants/random,/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/plasteel,/area/space)
 "Ns" = (/obj/machinery/vending/snack/random,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/plasteel,/area/space)
 "Nz" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
@@ -656,6 +670,7 @@
 "Ov" = (/obj/machinery/vending/wardrobe/chef_wardrobe,/turf/open/floor/plasteel/freezer,/area/space)
 "Ox" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/turf_decal/stripes/red/line{dir = 4},/turf/open/floor/plasteel,/area/space)
 "OB" = (/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/plasteel,/area/space)
+"OE" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plasteel,/area/space)
 "OH" = (/obj/structure/table,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/item/paper_bin,/obj/item/pen,/turf/open/floor/plasteel/dark,/area/space)
 "OI" = (/obj/structure/table,/obj/item/storage/box/donkpockets,/turf/open/floor/plasteel,/area/space)
 "OJ" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/obj/machinery/washing_machine,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/space)
@@ -672,6 +687,7 @@
 "Pj" = (/obj/structure/bed,/turf/open/floor/plating,/area/space)
 "Pn" = (/obj/structure/closet/secure_closet/warden,/turf/open/floor/plasteel/showroomfloor,/area/space)
 "Pq" = (/obj/structure/table/wood,/obj/item/folder/yellow,/obj/item/pen,/turf/open/floor/wood,/area/space)
+"Pz" = (/obj/structure/sign/warning/electricshock{pixel_y = -32},/turf/open/floor/plasteel,/area/space)
 "PA" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/open/floor/plasteel/dark,/area/space)
 "PC" = (/obj/structure/lattice/catwalk,/obj/structure/railing{dir = 8},/turf/open/openspace,/area/space)
 "PD" = (/obj/machinery/door/airlock{id_tag = "Dorm2"; name = "Dorm 2"},/turf/open/floor/plasteel,/area/space)
@@ -687,6 +703,7 @@
 "Qm" = (/obj/machinery/door/airlock/public/glass{name = "Library"},/turf/open/floor/plasteel,/area/space)
 "Qn" = (/obj/machinery/door/airlock{name = "Custodial Closet"; req_access_txt = "26"},/turf/open/floor/plasteel,/area/space)
 "Qr" = (/obj/structure/closet/firecloset,/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown,/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
+"Qs" = (/obj/machinery/atmospherics/pipe/layer_manifold{dir = 4; level = 2},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/space)
 "Qy" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/obj/machinery/photocopier,/turf/open/floor/plasteel/dark,/area/space)
 "Qz" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/plasteel,/area/space)
 "QB" = (/turf/open/floor/plasteel/showroomfloor,/area/space)
@@ -708,6 +725,7 @@
 "RD" = (/obj/structure/closet/cardboard,/turf/open/floor/plating,/area/space)
 "RJ" = (/obj/structure/table/wood,/obj/item/flashlight/lamp/green{pixel_x = 1; pixel_y = 5},/turf/open/floor/wood,/area/space)
 "RK" = (/obj/structure/displaycase/trophy,/turf/open/floor/wood,/area/space)
+"RL" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/visible/layer1,/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/space)
 "RS" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/open/floor/plasteel/dark,/area/space)
 "RY" = (/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown,/obj/effect/turf_decal/tile/brown{dir = 1},/turf/open/floor/plasteel,/area/space)
 "Sb" = (/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red,/turf/open/floor/plasteel/dark,/area/space)
@@ -716,6 +734,7 @@
 "Sw" = (/obj/structure/bookcase/random/religion,/turf/open/floor/wood,/area/space)
 "Sx" = (/obj/structure/rack,/obj/structure/window/reinforced/spawner/north,/obj/item/gun/energy/disabler,/obj/item/gun/energy/disabler,/obj/item/gun/energy/disabler,/obj/effect/turf_decal/bot_red,/turf/open/floor/plasteel/dark,/area/space)
 "SD" = (/obj/machinery/suit_storage_unit/ce,/obj/effect/turf_decal/stripes/line{dir = 4},/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/turf/open/floor/plasteel/dark,/area/space)
+"SG" = (/obj/structure/sign/directions/medical,/turf/closed/wall,/area/space)
 "SM" = (/obj/structure/reagent_dispensers/cooking_oil,/turf/open/floor/plasteel/freezer,/area/space)
 "SP" = (/obj/structure/lattice/catwalk,/obj/structure/railing{dir = 10},/turf/open/openspace,/area/space)
 "SQ" = (/obj/machinery/computer/reactor_control{dir = 1},/obj/item/disk/fuel_mix/default,/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/plasteel,/area/space)
@@ -735,6 +754,7 @@
 "TJ" = (/obj/structure/closet/secure_closet/hydroponics,/obj/effect/turf_decal/tile/green,/obj/effect/turf_decal/tile/green{dir = 8},/turf/open/floor/plasteel,/area/space)
 "TS" = (/obj/structure/sign/directions/command{dir = 1},/obj/structure/sign/directions/evac{dir = 8; pixel_y = 8},/turf/closed/wall,/area/space)
 "TU" = (/obj/structure/sink{dir = 4; pixel_x = 12; pixel_y = 2},/obj/structure/mirror{pixel_x = 28},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/plasteel/freezer,/area/space)
+"TX" = (/obj/structure/railing/corner,/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating,/area/space)
 "Ue" = (/obj/structure/table/reinforced,/obj/machinery/door/window/brigdoor/eastleft{req_access_txt = "1"},/obj/machinery/door/window/westleft{req_access_txt = "0"},/turf/open/floor/plating,/area/space)
 "Uf" = (/obj/machinery/computer/cargo/request{dir = 8},/turf/open/floor/plasteel,/area/space)
 "Uh" = (/obj/effect/turf_decal/loading_area,/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
@@ -784,7 +804,6 @@
 "Xd" = (/obj/structure/table,/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/item/kitchen/fork,/turf/open/floor/plasteel,/area/space)
 "Xe" = (/obj/structure/closet/crate/coffin,/turf/open/floor/plasteel/dark,/area/space)
 "Xf" = (/obj/effect/turf_decal/tile/brown{dir = 4},/obj/effect/turf_decal/tile/brown{dir = 1},/obj/machinery/computer/bounty,/turf/open/floor/plasteel,/area/space)
-"Xo" = (/obj/structure/railing/corner,/turf/open/floor/plating,/area/space)
 "Xp" = (/obj/effect/turf_decal/loading_area{dir = 4},/turf/open/floor/plasteel,/area/space)
 "Xq" = (/obj/structure/table,/obj/item/paper_bin,/obj/item/pen,/obj/item/clipboard,/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/turf/open/floor/plasteel,/area/space)
 "Xs" = (/obj/machinery/shower{dir = 1},/obj/structure/curtain,/turf/open/floor/plasteel/freezer,/area/space)
@@ -822,7 +841,6 @@
 "Ze" = (/obj/structure/table,/obj/machinery/computer/stockexchange,/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown,/turf/open/floor/plasteel,/area/space)
 "Zf" = (/obj/machinery/requests_console{department = "Cargo Bay"; departmentType = 2; pixel_x = -30},/obj/effect/turf_decal/tile/brown{dir = 1},/obj/effect/turf_decal/tile/brown{dir = 8},/obj/effect/turf_decal/tile/brown{dir = 4},/turf/open/floor/plasteel,/area/space)
 "Zh" = (/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plasteel/dark,/area/space)
-"Zi" = (/obj/structure/sign/warning/electricshock{pixel_y = 32},/turf/open/floor/plasteel,/area/space)
 "Zn" = (/obj/structure/window/reinforced/spawner/west{dir = 1},/obj/structure/window/reinforced/spawner/west{dir = 4},/obj/machinery/vending/snack/random,/turf/open/floor/plasteel,/area/space)
 "Zy" = (/obj/effect/landmark/start/security_officer,/turf/open/floor/plasteel,/area/space)
 "ZB" = (/obj/structure/sign/directions/medical{dir = 8},/obj/structure/sign/directions/science{dir = 8; pixel_y = 8},/turf/closed/wall,/area/space)
@@ -830,7 +848,6 @@
 "ZG" = (/obj/effect/turf_decal/stripes/red/line{dir = 4},/turf/open/floor/plasteel,/area/space)
 "ZJ" = (/obj/structure/window/reinforced/spawner/north,/obj/structure/rack,/obj/item/storage/box/flashes,/obj/effect/turf_decal/bot_red,/turf/open/floor/plasteel/dark,/area/space)
 "ZO" = (/obj/machinery/portable_atmospherics/scrubber,/turf/open/floor/plasteel,/area/space)
-"ZQ" = (/obj/structure/sign/warning/electricshock{pixel_y = -32},/turf/open/floor/plasteel,/area/space)
 
 (1,1,1) = {"
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
@@ -943,21 +960,21 @@ azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaamazazazazazazaaaaazazazazazazazazasQbqJnvaaxMvzpipiMAoBoBjQasasasGztYasaaaabdwXaaUAasbcRvOhYkyNaakJwyzpeuasARyIgtasmeXpfIRkvpzgJdlydkpEasaaaaaaaaayaaaaaaaaaaaaaaaaaaasazazazazazazazazazuwNzfyutfyfyQyuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaamazazazazazazaaaaazazazazazazazasasasasTDnvaaaaaaaaaaaazmYAsnQbaswbWpgDaaaaasPdaaUAaszuRvzpasyNAVblWQaaYwymyBvGrhasOtaaUAaacgwLasBhpJasasastototoasXqaaaaaaaymGOeXQKLasazazasasasasasasazuwvxDBJgututOMuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaamazazazazazasaaaaasazazazazazazasafwbasasUCzmaaaaaaUrdEaaaasjQbasmXbRasaaaaasDYmpUAasasRvzpasyNAVrUOaaaOhasasQRasasmeXpUAaaJqkyastRhAasAwHwNbXfoLasXHaaaawLasasasasasasazazasFaHNDOyXasuwuwUvasUTutnUuiuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaasazazazazasxbaaaaxbasazazazazazaswUVyLgasXvsXsXsXsXsXsXsXTJFcasasasasasaaaaasasWrHFVrasRvzpasqoLDKzLDLDmEasPjNLPjasOtaaUAaaaawLasUhvpvpVNaaaaaawLHBlyaaaawLgDamamKRrVasazazasAXjPTFAXaslCEEgdtosltPYNGnuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaasasamamamITaaaaaaaaasasamamamamasasqrasasasaGaGDzDzaGuWYdaGasasaaaauAaaaaaaaaasasasasasaaaaasasasasasasasasKWVPNLasAFXphWytICQrasbZMgwGMtlQwGyZpJtoIFaaaaObasamamamamasazazascNAXAXTgasllvczfastoUvasYRuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaasazazazazasNjaaaaNjasazazazazazaswUVyLgasXvsXsXsXsXsXsXsXTJFcasasasasasaaaaasasWrHFVrasRvzpasqoLDKzLDLDmEasPjNLPjasOtaaUAaaaawLasUhvpvpVNaaaaaawLHBlyaaaawLgDamamKRrVasazazasAXjPTFAXaslCEEgdtosltPYNGnuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaasasamamamHLaaaaaaaaasasamamamamasasqrasasasaGaGDzDzaGuWYdaGasasaaaauAaaaaaaaaasasasasasaaaaasasasasasasasasKWVPNLasAFXphWytICQrasbZMgwGMtlQwGyZpJtoIFaaaaObasamamamamasazazascNAXAXTgasllvczfastoUvasYRuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazamaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasasQRasasasasasasasasasnQasCyaGaGCyasnQasEMaaaaYsasbEpUasasasasuwuwuwuwjTGUasasrYasasrjdMuwuwuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagDamamashBpUaswbwbwbwbaslysQwjcFMCwjUfwLasZeMgMgYxasasasasrICJcUxUbFokdVEYdNfkfkfkfkrYTqoTuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasasamamamamamamITaaaaaaaaasasamamamamamamamamamamamamamamamamamamamamamamuAaaaaaaaaasasasasasQPQPQPQPasasasaaaaasJKamWWamamwiFJKOFJFJwiRYMbykDJwVykdkihasasFzasasasazazasqQYgKBxUdFolkEUVKyQQvHluvQasEelTuwuwuwuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasodaaaaodasazazazazazazazazazazasaaaaaaasazazazazazazazazasasaaaaasasQfDgtdLaBTBTQPQPHlBWasaaaaasasasasELamaswbofwbwbasasGpMgMbdkMgiXasasXJRkwuasazazazasaOMUoKuwuwuwuwUVdJuwuwuwuwuwuwuwuwWOVKuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaasazazazazazazazazazazazasaaaaaaasazazazazazazazazazamaaaaasjmsNsNQVaslStVasQPMQQPasaaaaasGLbSasasamaswbPYwbasasasasasjkzQasasasZfVNaawLasazazazasaOYgKBxUxHOudViGiDkMcuCebtreUYuwnPfyfyuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasasasasasasasasazasZQaaqsasazasasasasasasazazamaaaaasjmsNsNsNHysNsNtVBTQPQPQPaaaaQnoUoiImasamaswbwbwbaspOtYamasVNumaGazJralEbEfwYasazazazasaOYgKBxUrKMMIpnBbKUeMpQBQBQBQBBpfyfybjuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamamamamamamasasasascxasasasaswbwbwbwbasazazamaaaaasdKsNPbsNsNPbsNwaBTQPQPQPaapQaspRaaViQXamasasasasaswbWpamgDVNumaGazasJrJrasasasazazazasaOMUoKuwuwuwuwFMshkMlAqbuvuvuvkMSxfyZJuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamamamamamamamamamamamamamamFmwHwHwHwbasazazamaaaaYYsNsNhTUlsNsNsNTpBTQPQPQPaaaaasoUaaiJgDamGcasamamasXMbRamasVNumaGazazazazazazazazazazasaOMUfjzEKnfyKvnBiEuwuwdoPZyKPnuwsLfyzPuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamamamamamamamamamamamamamamXozHzHzHwbasazazamaaaaasasfQasasLcAGzTasQdQPIGasaaaaasvIGsenasamamgDamamasasasasasVNumaGazazazazazazazazazazasaOMUfjFuJtdeuwnBixAMuwEluwuwuwuwuwyzuwuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamamamamamamasasasascxasasasaswbwbwbwbasazazamaaaaasOKiCeFasasasYYasasasasTSaaaaTSasasasasasasasasasasazazazaGVNumaGazazazazazazasasasasasaOMUMwuwhDyyuwFMGACHjeEdkMknVRVRVROVjAasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasasasasasasasasazasZiaaaPasazasasasasasasazazamaaaaasOKiCOfiCudasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasazazazazazazaGaaaaaGazazazazazazasUJwbWpasaOYgOxDqfufuEGVofyfyfySbqERlgNgNgNfyUEasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasasaaaaasasazazazazazazazazazazasaaaaaaasazazazazazazazazasasaaaaasasOvSMiCEkasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasazazazazazasaMaaaaaMasazazazazazaswUVybRasaOMUZGALxuxuopyGQQvHvHuVasXOpHvHffrfmtasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
-azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaaaaaasazazazazazazazazazazasaaaaaaasazazazazazazazazsMaaaaaaaaasasasasasZBaaaaasasasasasasasasasasasaaaaPRaGaGaGaGaGaJaaaaaaaaanasaGaGasasasasgDasasNEThMwuwuwuwuwasasasurasasasasoJasasasasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasasamamamamamamHLaaaaaaaaasasamamamamamamamamasasaaaaaaasasamamamamamamamuAaaaaaaaaasasasasasQPQPQPQPasasasaaaaasJKamWWamamwiFJKOFJFJwiRYMbykDJwVykdkihasasFzasasasazazasqQYgKBxUdFolkEUVKyQQvHluvQasEelTuwuwuwuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasSGaaaaSGasazazazazazazazazazazasaaMUaaasazazazazazazazazasasaaaaasasQfDgtdLaBTBTQPQPHlBWasaaaaasasasasELamaswbofwbwbasasGpMgMbdkMgiXasasXJRkwuasazazazasaOMUoKuwuwuwuwUVdJuwuwuwuwuwuwuwuwWOVKuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaasazazazazazazazazazazazasaaOEaaasazazazazazazazazazamaaaaasjmsNsNQVaslStVasQPMQQPasaaaaasGLbSasasamaswbPYwbasasasasasjkzQasasasZfVNaawLasazazazasaOYgKBxUxHOudViGiDkMcuCebtreUYuwnPfyfyuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasasasasasasasasazasPzOEvRasazasasasasasasazazamaaaaasjmsNsNsNHysNsNtVBTQPQPQPaaaaQnoUoiImasamaswbwbwbaspOtYamasVNumaGazJralEbEfwYasazazazasaOYgKBxUrKMMIpnBbKUeMpQBQBQBQBBpfyfybjuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamamamamamamasasasasqlasasasaswbwbwbwbasazazamaaaaasdKsNPbsNsNPbsNwaBTQPQPQPaapQaspRaaViQXamasasasasaswbWpamgDVNumaGazasJrJrasasasazazazasaOMUoKuwuwuwuwFMshkMlAqbuvuvuvkMSxfyZJuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamoopDpDamamVyVyVyVyRLVyVyVyCnwHwHwHwbasazazamaaaaYYsNsNhTUlsNsNsNTpBTQPQPQPaaaaasoUaaiJgDamGcasamamasXMbRamasVNumaGazazazazazazazazazazasaOMUfjzEKnfyKvnBiEuwuwdoPZyKPnuwsLfyzPuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamcBcKMYQskXfxfxLVLVlWGzGzGzTXzHzHzHwbasazazamaaaaasasfQasasLcAGzTasQdQPIGasaaaaasvIGsenasamamgDamamasasasasasVNumaGazazazazazazazazazazasaOMUfjFuJtdeuwnBixAMuwEluwuwuwuwuwyzuwuwazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasamamIMJTAtLLasasasasypasasasaswbwbwbwbasazazamaaaaasOKiCeFasasasYYasasasasTSaaaaTSasasasasasasasasasasazazazaGVNumaGazazazazazazasasasasasaOMUMwuwhDyyuwFMGACHjeEdkMknVRVRVROVjAasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaaaaazazazasasasasasasasasazaskROEifasazasasasasasasazazamaaaaasOKiCOfiCudasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasazazazazazazaGaaaaaGazazazazazazasUJwbWpasaOYgOxDqfufuEGVofyfyfySbqERlgNgNgNfyUEasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasasaaaaasasazazazazazazazazazazasaaOEaaasazazazazazazazazasasaaaaasasOvSMiCEkasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasazazazazazasaMaaaaaMasazazazazazaswUVybRasaOMUZGALxuxuopyGQQvHvHuVasXOpHvHffrfmtasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
+azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaaaaaasamamamamamamamamamasasaaMUaaasasamamamamamamamsMaaaaaaaaasasasasasZBaaaaasasasasasasasasasasasaaaaPRaGaGaGaGaGaJaaaaaaaaanasaGaGasasasasgDasasNEThMwuwuwuwuwasasasurasasasasoJasasasasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasaaaYaFaFaFaFaFaQaaasaaaaaaaaaaaaaaaaaaaaabdtaaaaaawCwCwCVdwCwCcUcUcUkhesKBxSxXZyZyaaayasaaOIUIasVlaadUasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasaaaYaLaLVLMoaLaQaaasaaaaaaaaaaaaaaaaaaaaZnakaaaaaafjfjfjexfjfjfjzyaaYgesKBxSqLqLqLaaaaaaaaaaaakiaaaasuasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
 azazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazasaaaaaaaaasazazazazazazazazazazazazazazazazazazazazazazazsMaaaaaaaaasaGaGaGaGZBaaaaaZaaaYaKHGawaRaqaQaaaZaaaaPRtoqDtoqDtoasaaaaaaaaanasasasasasaGaGaGasuopaesKBxSVCaddWayYbaEaaaatJasACACasasazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazazaz
